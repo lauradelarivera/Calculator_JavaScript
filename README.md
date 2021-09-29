@@ -6,5 +6,6 @@
 
 - Define formulas
 - Implement formulas on JS
-- Create funtions
+- Create functions
 - Integrate JS to HTML
+ 
