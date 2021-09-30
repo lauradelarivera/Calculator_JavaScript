@@ -7,6 +7,11 @@
     <title>Geometric Figures</title>
 </head>
 <body>
+    <style>
+        div {
+          background-image: url('background.jpg');
+        }
+        </style>
     <header>
         <h1>
             Gemetric Figures
@@ -16,22 +21,141 @@
 
     <section>
         <h2>
-            Calculating Aerea and Perimeter of a Square
+            Calculating Aerea and Perimeter of a Square  <br>
         
             <form>
 
+                <br>
+
             <label for="InputSquare">
                 Write the side of your Square: <br>
+                <br>
+
             </label> 
+
             <input id="InputSquare" type="number" />
+                <br>
+
             <button type="button" onclick="calculatePerimeterCuadrado()">
                 Calculate The Perimeter
+                
             </button>
+            
             <button type="button" onclick="calculateAereaCuadrado()">
                 Calculate The Aerea
             </button>
+        
         </form>
         </h2>
+
+        <h2>
+            Calculating Aerea and Perimeter of a Triangle  <br> 
+
+            <from>
+                <br>
+
+            <label for="InputTriangleS1">
+                Write The Side of your Triangle: <br>
+            </label>
+            
+            <input id="InputTriangleS1" type="number" />
+            <br>
+
+            <label for="InputTriangleS2">
+                <br>
+                Write The Side of your Triangle: <br>
+            </label>
+
+            <input id="InputTriangleS2" type="number" /> <br>
+               <br>
+
+            <label for="InputTriangleB3">
+                Write The Base of your Triangle: <br>
+            </label>
+
+            <input id="InputTriangleB3" type="number" /> <br>
+
+            <br>
+
+            <label for="InputTriangleH4">
+                Write The Height of your Triangle: <br>
+            </label>
+
+            <input id="InputTriangleH4" type="number" /> <br>
+
+            <button type="button" onclick="calculatePerimeterTriangle()">
+                Calculate The Perimeter
+            </button>
+
+            <button type="button" onclick="calculateAereaTriangle()">
+                Calculate The Aerea
+            </button>
+
+            </from>
+        </h2>
+
+        <h2>
+            Calculating Aerea and Perimeter of a Circle <br> 
+
+            <from>
+                <br>
+
+            <label for="InputCircle">
+                Write The Radio of your Circle: <br>
+            </label>
+            
+            <input id="InputCircle" type="number" />
+            
+            <br>
+
+            <button type="button" onclick="calculatePerimeterCircle()">
+                Calculate The Diameter
+            </button>
+
+            <button type="button" onclick="calculateAereaCircle()">
+                Calculate The Aerea
+            </button>
+
+            </from>
+        </h2>
+
+        <h2>
+            Calculating Height of an Isosceles Triangle <br> 
+
+            <from>
+                <br>
+
+            <label for="InputIsoscelesA">
+                Write one of the sides of your Isosceles Triangle: <br>
+            </label>
+            
+            <input id="InputIsoscelesA" type="number" />
+            
+            <br>
+
+            <label for="InputIsoscelesB">
+                Write one of the sides of your Isosceles Triangle: <br>
+            </label>
+            
+            <input id="InputIsoscelesB" type="number" />
+            <br>
+
+            <label for="InputIsoscelesBase">
+                Write one of the base of your Isosceles Triangle: <br>
+            </label>
+            
+            <input id="InputIsoscelesBase" type="number" />
+            
+            <button type="button" onclick="calculateHeightIso()">
+                Calculate The Height 
+            </button>
+
+            </from>
+        </h2>
+
+        <p align="right">
+            <button onClick="window.location.reload();">New Request</button>
+          </p> 
     </section>
 
     <script src="./figuras.js"></script>
