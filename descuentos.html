@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentages and Discounts</title>
+</head>
+<body>
+   <header>
+    <h1>
+        Percentages and Discounts 
+    </h1>
+    <p>This is the Second Workshop from JS course</p>
+    
+   </header>
+
+   <section>
+       <h2>
+           Calculating the final price to pay of your products with discount
+           <br
+        <form>
+            <label for ="inputPrice">Write the price of your product (S/.): </label>
+            <input id="inputPrice" type="number"/>
+            
+            <label for ="inputDiscount">Write the percentage of your discount (%) </label>
+            <input id="inputDiscount" type="number"/> 
+
+            <button type="button" onclick="priceDiscount()">
+                Final Price to Pay 
+            </button>
+
+            <p id="finalPri"></p>
+        </form>
+       </h2>
+       
+       <h2>
+           Do you have a Discount Coupon?
+           <br
+        <form>
+            <label for ="firstPrice"> 
+                Write the price of your product (S/.):</label>
+            <input id="firstPrice" type="number"/>
+
+            <label for = "inputCupon">
+                Write the name of your coupon: </label>
+            <input id="inputCupon" type="text" />
+
+            <button type="button" onclick="priceAfterCoupon()">
+                Final Price to Pay
+            </button>
+
+            <p id="finalCouponPrice"></p>
+
+        </form>
+       </h2>
+   </section>
+
+    <script src="descuentos.js"></script>
+</body>
+</html>
