@@ -65,7 +65,7 @@ function priceAfterCoupon(){
         const finalCouponPrice = document.getElementById("finalCouponPrice");
         finalCouponPrice.innerText = "The total ammount to pay is: " + precioConDescuento;
     } else {
-        console.log("Not valid value :( ");
+        alert("Not valid coupon :( ");
     }
 
     

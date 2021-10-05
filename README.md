@@ -14,3 +14,9 @@
  - Implement formulas on JS
  - Create functions
  - Integrate JS to HTML
+
+  ## Workshop #3 - Mean, Median and Mode
+ - Define formulas
+ - Implement formulas on JS
+ - Create functions
+ - Integrate JS to HTML
