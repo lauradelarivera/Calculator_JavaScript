@@ -1,23 +1,24 @@
-//const list1 = [
-    //100,
-    //200,
-    //300,
-    //400,
-    //500,
-//];
+//const list1 = [ NO TAKE IN TO CONSIDERATION
+    //100,NO TAKE IN TO CONSIDERATION
+    //200,NO TAKE IN TO CONSIDERATION
+    //300,NO TAKE IN TO CONSIDERATION
+    //400,NO TAKE IN TO CONSIDERATION
+    //500,NO TAKE IN TO CONSIDERATION
+//];NO TAKE IN TO CONSIDERATION
 
-//var sumList1 = 0;
-    //for (var i = 0; i < list1.length; i++){
-        //sumList1 = sumList1 + list1[i];
-    //}
+// var sumList1 = 0; NO TAKE IN TO CONSIDERATION
+//     for (var i = 0; i < list1.length; i++){ NO TAKE IN TO CONSIDERATION
+//         sumList1 = sumList1 + list1[i]; NO TAKE IN TO CONSIDERATION
+//     } NO TAKE IN TO CONSIDERATION
 
-//const averageList1 = sumList1 / list1.length;
+// const averageList1 = sumList1 / list1.length;
 
 // function calculateMean(list) {
-    //var sumList = 0; NO TAKE IN TO CONSIDERATION
-        // for (var i = 0; i < list.length; i++){  NO TAKE IN TO CONSIDERATION
-        //     sumList = sumList + list[i];NO TAKE IN TO CONSIDERATION
-        // }NO TAKE IN TO CONSIDERATION
+    
+//     //var sumList = 0; NO TAKE IN TO CONSIDERATION
+//         // for (var i = 0; i < list.length; i++){  NO TAKE IN TO CONSIDERATION
+//         //     sumList = sumList + list[i];NO TAKE IN TO CONSIDERATION
+//         // }NO TAKE IN TO CONSIDERATION
     
 //     const sumList = list.reduce(
 //         function (acumulateValue = 0, newElement) {
